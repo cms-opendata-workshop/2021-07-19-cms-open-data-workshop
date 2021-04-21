@@ -1,0 +1,5 @@
+## Welcome
+
+## Workshop structure
+
+FIXME

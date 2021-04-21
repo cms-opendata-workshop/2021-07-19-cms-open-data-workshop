@@ -5036,7 +5036,10 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: white;
+  background-image: url("https://www.symmetrymagazine.org/sites/default/files/styles/2015_hero/public/images/standard/Header_Mu_mu.png?itok=wiXoIy_w");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5071,7 +5074,7 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 50px;
   }
 }
 .thumbnail {
