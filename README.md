@@ -5,7 +5,7 @@
 This is the main repository for the [CMS Open Data Workshop 2021](https://cms-opendata-workshop.github.io/2021-07-19-cms-open-data-workshop/) event.  The workshop is based on  The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and
 [Library Carpentry][lc-site]'s) templates for creating websites for workshops.  In particular, we followed the instructions in the official [workshop template repository](https://github.com/carpentries/workshop-template) and used the "template" function to make a copy and customize it.  As it is explained there, it builds automatically on Github.
 
-# How to contribute
+## How to contribute
 
 In order to modify the main workshop website, i.e., this repository, please follow the SW Carpentry's [default instructions](https://github.com/carpentries/workshop-template#customizing-your-website-required-steps).
 
@@ -14,7 +14,7 @@ Lessons are generally added to the main workshop site from a repository in the c
 
 ## Creating a lesson
 
-In order to create a lesson, please follow the default instructions in the Carpentry's [lesson template][lesson-example] (*in particular, follow [these](https://carpentries.github.io/lesson-example/setup.html#creating-a-new-lesson) steps*).  However, instead of copying the official [lesson example](https://github.com/carpentries/lesson-example) template, use the modified template that can be found in the [styles](https://github.com/cms-opendata-workshop/styles) repository of the current organization.  The latter repository is a fork of the original template but contains all the CMS-related modifications that align with the current workshop event.  Please, do not forget to test it [locally](#working-locally) first.
+In order to create a lesson, please follow the default instructions in the Carpentry's [lesson template][lesson-example] (*in particular, follow [these](https://carpentries.github.io/lesson-example/setup.html#creating-a-new-lesson) steps*).  However, instead of copying the official [lesson example](https://github.com/carpentries/lesson-example) template, use our [modified template](https://github.com/cms-opendata-workshop/styles).  The latter template is a fork of the original template but contains all the CMS-related modifications that align with the current workshop event.  Please, do not forget to test it [locally](#working-locally) first.
 
 
 ## Working locally
