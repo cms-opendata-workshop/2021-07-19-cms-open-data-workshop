@@ -5,7 +5,7 @@
 This is the main repository for the [CMS Open Data Workshop 2021](https://cms-opendata-workshop.github.io/2021-07-19-cms-open-data-workshop/) event.  The workshop is based on  The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and
 [Library Carpentry][lc-site]'s) templates for creating websites for workshops.  In particular, we followed the instructions in the official [workshop template repository](https://github.com/carpentries/workshop-template) and used the "template" function to make a copy and customize it.  As it is explained there, it builds automatically on Github.
 
-# How to contribute
+## How to contribute
 
 In order to modify the main workshop website, i.e., this repository, please follow the SW Carpentry's [default instructions](https://github.com/carpentries/workshop-template#customizing-your-website-required-steps).
 
@@ -14,7 +14,98 @@ Lessons are generally added to the main workshop site from a repository in the c
 
 ## Creating a lesson
 
-In order to create a lesson, please follow the default instructions in the Carpentry's [lesson template][lesson-example] (*in particular, follow [these](https://carpentries.github.io/lesson-example/setup.html#creating-a-new-lesson) steps*).  However, instead of copying the official [lesson example](https://github.com/carpentries/lesson-example) template, use the modified template that can be found in the [styles](https://github.com/cms-opendata-workshop/styles) repository of the current organization.  The latter repository is a fork of the original template but contains all the CMS-related modifications that align with the current workshop event.  Please, do not forget to test it [locally](#working-locally) first.
+In order to create a new lesson for this workshop, follow the procedure below (which is based on [these](https://carpentries.github.io/lesson-example/setup.html#creating-a-new-lesson) original instructions):  
+
+We will assume that the name of your the new lesson is `worshop2021-lesson-temp`.  
+
+1.  We'll use the [GitHub's importer](https://github.com/new/import) to make a copy of the lesson template in the workshops github organization. (Note: This is like a GitHub Fork, but not connected to the upstream changes)
+
+2.  Put the URL of **[the styles repository](https://github.com/cms-opendata-workshop/styles)**, that is
+    **https://github.com/cms-opendata-workshop/styles** in the "Your old repository’s clone URL" box.
+
+3.  Select the owner for the new repository as `cms-opendata-workshop`.
+
+4.  Choose a name for your lesson repository.
+    In our example, this is `worshop2021-lesson-temp`. Please follow this pattern, i.e., `workshop2021-lesson-{description}`
+
+5.  Make sure the repository is public.
+
+6.  At this point, you should have a page like this:
+
+    ![](fig/using-github-import-cmsodworkshop.png)
+
+    You can now click "Begin Import". When the process is done, you can click
+    "Continue to repository" to visit your newly-created repository.
+
+7.  In order to properly initialize the lesson repository, you need to work from your local machine or have someone do it for you (after the initialization process is done, you can work directly using the Github browser page).  Clone your newly-created repository to your computer:
+
+    ~~~
+    $ git clone -b gh-pages https://github.com/cms-opendata-workshop/workshop2021-lesson-temp.git
+    ~~~
+
+    Note: Replace the name of your lesson.
+
+8.  Go into that directory using:
+
+    ~~~
+    $ cd workshop2021-lesson-temp
+    ~~~
+
+9. To be able to pull upstream style changes, you should manually add the
+     styles repository as a remote called `template`:
+
+    ~~~
+    $ git remote add template https://github.com/cms-opendata-workshop/styles.git
+    ~~~
+    
+    This will allow you to pull in changes made to the template,
+    such as improvements to our CSS style files.
+
+10. Configure the `template` remote to not download tags:
+
+    ~~~
+    $ git config --local remote.template.tagOpt --no-tags
+    ~~~
+    
+10. Make sure you are using the `gh-pages` branch of the lesson template:
+
+    ~~~
+    $ git checkout gh-pages
+    ~~~
+ 
+11. Run `bin/lesson_initialize.py` to create all of the boilerplate files
+    that cannot be put into the styles repository
+    (because they would trigger repeated merge conflicts).
+
+12. Create and edit files as explained further in
+    [the episodes of this lesson](https://carpentries.github.io/lesson-example/index.html#schedule).
+
+13. (requires [Jekyll Setup](#installing-software) from below) Preview the HTML pages for your lesson:
+
+    ~~~
+    $ make serve
+    ~~~
+  
+    Alternatively, you can try using Docker:
+
+    ~~~
+    $ make docker-serve
+    ~~~
+  
+14. Commit your changes and push to the `gh-pages` branch of your
+    repository:
+
+    ~~~
+    $ cd workshop2021-lesson-temp
+    $ git add changed-file.md
+    $ git commit -m "Explanatory message"
+    $ git push origin gh-pages
+    ~~~
+    
+15. Do not forget to choose the `gh-pages` branch as the default one: go to the `Settings` option of the new lesson repository, chosee `Branches` from the left menu, and choose the `gh-pages` branch as the default.
+ 
+
+
 
 
 ## Working locally
@@ -68,7 +159,7 @@ to GitHub, you must install the software described in the lesson example [setup
 instructions](https://carpentries.github.io/lesson-example/setup.html#jekyll-setup-for-lesson-development).
 
 **Note:**
-There might be some issues with the ruby versions.  The default Carpentry instructions seem to be outdated.  One might need to fiddle a little bit with the installation.  Fortunately, there are external instructions that can fix potential problems.
+There might be some issues with the ruby versions.  The default Carpentry instructions seem to be outdated.  One might need to fiddle a little bit with the installation.  Fortunately, there are external (Google) instructions that can be used to fix potential problems.
 
 
 ## Getting and Giving Help
