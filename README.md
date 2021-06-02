@@ -32,8 +32,8 @@ We will assume that the name of your the new lesson is `worshop2021-lesson-temp`
 
 6.  At this point, you should have a page like this:
 
-    ![](fig/using-github-import-cmsodworkshop.png)
-
+    <img src="fig/using-github-import-cmsodworkshop.png" width="400"> 
+    
     You can now click "Begin Import". When the process is done, you can click
     "Continue to repository" to visit your newly-created repository.
 
