@@ -103,6 +103,8 @@ We will assume that the name of your the new lesson is `worshop2021-lesson-temp`
     ~~~
     
 15. Do not forget to choose the `gh-pages` branch as the default one: go to the `Settings` option of the new lesson repository, chosee `Branches` from the left menu, and choose the `gh-pages` branch as the default.
+
+16. Finally, in order to facilitate the access to the live site, go to the `Settings` page of the lesson repository, then to the `Pages` option on the left menu, and copy the *live* web link to the `About` description of the repository.
  
 
 
