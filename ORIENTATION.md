@@ -1,5 +1,5 @@
 ## Welcome
-Welcome to the very second version of the workshop on the use of open data from the CMS experiment. We are really happy to have you here!
+Welcome to the second version of the workshop on the use of open data from the CMS experiment. We are really happy to have you here!
 In order to make the best use of the time during the event, we have prepared a set of pre-exercises, which you are requested to go through before the workshop.
 
 Yes, **requested**: this is because we know that setting up the proper environment may take some time, and it may happen that you would need help.
