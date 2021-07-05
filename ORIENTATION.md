@@ -1,11 +1,34 @@
+---
+layout: page
+title: "Orientation"
+root: .
+---
+
 ## Welcome
+
 Welcome to the second version of the workshop on the use of open data from the CMS experiment. We are really happy to have you here!
+
+Please do not forget to subscribe to our [mattermost team](https://mattermost.web.cern.ch/cmsodws2021/channels/town-square), where dedicated discussion channels will be created to assist you during pre-exercises and workshop lessons.  In order to do so, and if you do not have CERN credentials, please obtain a [lightweight CERN account](https://account.cern.ch/account/Externals/) (unless you have done so already to register).
+
+## Workshop structure
+
+To facilitate the delivery of information, we have classified the material in six topics.  The color coding help differentiate them:
+
+* <span style="background-color:#ff0000;color:white">General guidance</span>
+* <span style="background-color:#ff8000;color:black">Datasets and access</span>
+* <span style="background-color:#ffff00;color:black">Basic physics objects</span>
+* <span style="background-color:#00ff00;color:black">Advanced physics objects</span>
+* <span style="background-color:#00ffff;color:black">Analysis flow</span>
+* <span style="background-color:#0000ff;color:white">Cloud computing</span>
+
+## Pre-exercises
+
 In order to make the best use of the time during the event, we have prepared a set of pre-exercises, which you are requested to go through before the workshop.
-
 Yes, **requested**: this is because we know that setting up the proper environment may take some time, and it may happen that you would need help.
-We can help you get started before the workshop, but during the workshop we really want to concentrate on the use of open data.  We will do our best if all technicalities are settled down in advance.
+We can help you get started before the workshop, but during the workshop we really want to concentrate on the use of open data.  We will do our best in order to have all technicalities settled down in advance.
+In the rest of this page, we try to explain why we have chosen those pre-exercises, please read though!
 
-In this page, we try to explain why we have chosen those pre-exercises, please read though!
+Please note that all pre-exercises <strong style="color: red;">require you to submit some simple work assignments</strong>.  This can be done using our [assignment form](https://forms.gle/DDboG1MCcSNRBRHFA); you must sign in and <strong style="color: red;">click on the submit button</strong> in order to save your work.  You can come back to edit the form at any time.
 
 ## Analysis workflow
 
@@ -47,16 +70,7 @@ or by passing the output files to your local setup and analysing them there.
 If you are familiar with root and have it installed on your local system, you may prefer doing it there.
 In this case, check the root pre-exercise to be sure that you have the right root version used in the open data analysis example.
 
-## Workshop structure
 
-In order to facilitate the delivery of information, we have classified the material in six topics.  The color coding help differentiate them:
-
-* <span style="background-color:#ff0000;color:white">General guidance</span>
-* <span style="background-color:#ff8000;color:black">Datasets and access</span>
-* <span style="background-color:#ffff00;color:black">Basic physics objects</span>
-* <span style="background-color:#00ff00;color:black">Advanced physics objects</span>
-* <span style="background-color:#00ffff;color:black">Analysis flow</span>
-* <span style="background-color:#0000ff;color:white">Cloud computing</span>
 
 ## Different operating system
 
