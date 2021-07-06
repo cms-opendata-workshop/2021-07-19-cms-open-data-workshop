@@ -38,7 +38,7 @@ Analysis of CMS data is most commonly done in two steps
 
 The **first** step (linked to the <span style="background-color:#ffff00;color:black">Basic physics objects</span> and <span style="background-color:#00ff00;color:black">Advanced physics objects</span> topics) will almost inevitably be done using the CMS software (`CMSSW`) and in a computing environment compatible with the open data.
 
-There are some optional pre-exercises that you are welcome to complete either partially of completely. They cover basic computing skills (unix command and python perhaps being the most importan) that will help you during this workshop.
+There are some optional pre-exercises that you are welcome to complete either partially of completely. They cover basic computing skills (unix command and python perhaps being the most important) that will help you during this workshop.
 
 For the computing environment, you can either
  - download a virtual machine (VM) image and run it on your computer.
