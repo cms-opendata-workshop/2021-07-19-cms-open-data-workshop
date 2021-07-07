@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Orientation"
-: .
+root: .
 ---
 
 ## Welcome
@@ -29,6 +29,18 @@ We can help you get started before the workshop, but during the workshop we real
 In the rest of this page, we try to explain why we have chosen those pre-exercises, please read though!
 
 Please note that all pre-exercises <strong style="color: red;">require you to submit some simple work assignments</strong>.  This can be done using our [assignment form](https://forms.gle/DDboG1MCcSNRBRHFA); you must sign in and <strong style="color: red;">click on the submit button</strong> in order to save your work.  You can come back to edit the form at any time.
+
+Please add yourself to the pre-exercises Mattermost channels if you need assistance and/or are willing to help out or contribute to the discussion:
+
+* [Virtual Machine pre-exercise channel](https://mattermost.web.cern.ch/cmsodws2021/channels/virtual-machine-pre-exercise)
+* [Docker pre-exercise channel](https://mattermost.web.cern.ch/cmsodws2021/channels/docker-pre-exercise)
+* [C++ and ROOT pre-exercise channel](https://mattermost.web.cern.ch/cmsodws2021/channels/c-and-root-pre-exercise)
+* [Intro to Physics Objects pre-exercise channel](https://mattermost.web.cern.ch/cmsodws2021/channels/intro-to-physics-objects-pre-exercise)
+* [CMSSW pre-exercise channel](https://mattermost.web.cern.ch/cmsodws2021/channels/cmssw-pre-exercise)
+* [Intro to Trigger pre-exercise channel](https://mattermost.web.cern.ch/cmsodws2021/channels/intro-to-trigger-pre-exercise)
+
+Lesson channels will be announced later.
+
 
 ## Analysis workflow
 
